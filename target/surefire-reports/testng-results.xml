@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="1939" started-at="2018-09-19T03:45:44Z" finished-at="2018-09-19T03:45:46Z">
+  <suite name="Surefire suite" duration-ms="1851" started-at="2018-09-19T03:57:19Z" finished-at="2018-09-19T03:57:21Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="1939" started-at="2018-09-19T03:45:44Z" finished-at="2018-09-19T03:45:46Z">
+    <test name="Surefire test" duration-ms="1851" started-at="2018-09-19T03:57:19Z" finished-at="2018-09-19T03:57:21Z">
       <class name="com.easybix.RestAssuredCore.LoginTest">
-        <test-method status="PASS" signature="doLogin()[pri:0, instance:com.easybix.RestAssuredCore.LoginTest@457e2f02]" name="doLogin" duration-ms="1910" started-at="2018-09-19T03:45:44Z" finished-at="2018-09-19T03:45:46Z">
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:com.easybix.RestAssuredCore.LoginTest@457e2f02]" name="doLogin" duration-ms="1830" started-at="2018-09-19T03:57:19Z" finished-at="2018-09-19T03:57:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
