@@ -44,6 +44,12 @@
 	    <version>6.14.3</version>
 	    <scope>test</scope>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+	<dependency>
+	    <groupId>log4j</groupId>
+	    <artifactId>log4j</artifactId>
+	    <version>1.2.17</version>
+	</dependency>
 	
   </dependencies>
   <build>
@@ -56,5 +62,11 @@
         </plugin>
       </plugins>
     </pluginManagement>
+     <resources>
+    	<resource>
+    		<directory>logs</directory><!--  define location of log file -->
+    	</resource>
+    </resources>
   </build>
+  
 </project>
