@@ -11,4 +11,10 @@ public static String generateString(String filename) throws IOException {
 		return new String (Files.readAllBytes(Paths.get(filePath)));
 		
 	}
+/*public static String generateString(String filePath) throws IOException {
+	
+	return new String (Files.readAllBytes(Paths.get(filePath)));
+	
+}*/
+
 }

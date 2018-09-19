@@ -11,14 +11,14 @@ public class RESTCalls {
 		
 		RequestSpecification requestSpecification = RestAssured.given();
 		requestSpecification.contentType(ContentType.JSON);
-		Response response = requestSpecification.post(uRI);
+		Response response = requestSpecification.get(uRI);
 		return response;
 	}
 	
 	public static Response POSTRequest(String uRI, String strJSON) { // accepts URI + Payload
 		RequestSpecification requestSpecification = RestAssured.given().body(strJSON); // passing body as well
 		requestSpecification.contentType(ContentType.JSON);
-		Response response = requestSpecification.get(uRI);
+		Response response = requestSpecification.post(uRI);
 		return response;	
 	}
 	
