@@ -5,9 +5,9 @@ import org.apache.log4j.Logger;
 
 
 
-public class PayLoadConverter {
+public class PayLoadGenerator {
 	
-	final static Logger log = Logger.getLogger(PayLoadConverter.class);
+	final static Logger log = Logger.getLogger(PayLoadGenerator.class);
 	
 public static String generateString(String filename) {
 		log.info("Inside PayLoadConverter function");

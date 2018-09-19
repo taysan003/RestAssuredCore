@@ -18,11 +18,22 @@ public class RESTCalls {
 		return response;
 	}
 		
-		public static Response POSTRequest(String uRI, String strJSON) { // accepts URI + Payload
+	public static Response POSTRequest(String uRI, String strJSON) { // accepts URI + Payload
 		
 		log.info("Inside POSTRequest call");
 		RequestSpecification requestSpecification = RestAssured.given().body(strJSON); // passing body as well
 		requestSpecification.contentType(ContentType.JSON);
+		Response response = requestSpecification.post(uRI);
+		log.debug(requestSpecification.log().all());
+		return response;	
+	}
+		
+	public static Response POSTRequest(String uRI, String strJSON, String sessionId) { // accepts URI + Payload
+		
+		log.info("Inside POSTRequest call");
+		RequestSpecification requestSpecification = RestAssured.given().body(strJSON); // passing body as well
+		requestSpecification.contentType(ContentType.JSON);
+		requestSpecification.header("cookie", "JSESSIONID="+ sessionId+"");
 		Response response = requestSpecification.post(uRI);
 		log.debug(requestSpecification.log().all());
 		return response;	

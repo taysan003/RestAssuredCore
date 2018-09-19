@@ -7,7 +7,7 @@ import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
 
 public class TestUtils {
-	final static Logger log = Logger.getLogger(PayLoadConverter.class);
+	final static Logger log = Logger.getLogger(PayLoadGenerator.class);
 	
 	public static String getResponseString(Response response) {
 		log.info("Converting Response to String");

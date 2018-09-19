@@ -8,7 +8,7 @@ import com.easybix.utils.TestUtils;
 import io.restassured.response.Response;
 
 
-public class Assertions {
+public class BaseAssertion {
 	
 	final static Logger log = Logger.getLogger(RESTCalls.class);
 	

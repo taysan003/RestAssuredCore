@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="2" name="Test">
     <classes>
-      <class name="com.easybix.RestAssuredCore.LoginTest"/>
+      <class name="com.easybix.issue.CreateIssue"/>
      </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
